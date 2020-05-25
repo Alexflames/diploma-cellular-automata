@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{float4} \PYG{n}{get}\PYG{p}{(}\PYG{n}{v2f\PYGZus{}customrendertexture} \PYG{n}{IN}\PYG{p}{,} \PYG{k}{int} \PYG{n}{x}\PYG{p}{,} \PYG{k}{int} \PYG{n}{y}\PYG{p}{)} \PYG{o}{:} \PYG{n}{COLOR}
+	\PYG{p}{\PYGZob{}}
+	   \PYG{k}{return} \PYG{n}{tex2D}\PYG{p}{(}\PYG{n}{\PYGZus{}SelfTexture2D}\PYG{p}{,} \PYG{n}{IN}\PYG{p}{.}\PYG{n}{localTexcoord}\PYG{p}{.}\PYG{n}{xy} \PYG{o}{+}
+	   	 \PYG{n}{fixed2}\PYG{p}{(}\PYG{n}{x} \PYG{o}{/} \PYG{n}{\PYGZus{}CustomRenderTextureWidth}\PYG{p}{,} \PYG{n}{y} \PYG{o}{/} \PYG{n}{\PYGZus{}CustomRenderTextureHeight}\PYG{p}{));}
+	\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

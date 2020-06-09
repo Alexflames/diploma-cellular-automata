@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -8,5 +8,151 @@
 \ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
 \ifx\undefined\BibAnnote\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibSection\def\BibSection#1#2#3{}\else\fi
+
+\bibitem{automata}
+\selectlanguageifdefined{english}
+\BibTitle{[Клеточные автоматы - реализация и эксперименты]}. "---
+\newblock URL:~\url{https://www.osp.ru/pcworld/2003/08/166226/} (Дата обращения
+  27.05.2020). Загл. с экр. Яз. рус.
+
+\bibitem{edge-detection}
+\selectlanguageifdefined{english}
+\BibAuthor{Rosin,~P.} \BibTitle{Edge Detection Using Cellular Automata}~/
+  P.~Rosin, X.~Sun. "---
+\newblock 2014. "---
+\newblock Pp.~85--103.
+
+\bibitem{crypto}
+\selectlanguageifdefined{english}
+\BibAuthor{Zhu,~B.-P.} \BibTitle{Public-key cryptosystem based on cellular
+  automata}~/ B.-P. Zhu, L.~Zhou, F.-Y. Liu. "---
+\newblock 10 2007. "---
+\newblock Vol.~31. "---
+\newblock Pp.~612--616.
+
+\bibitem{cgraphics}
+\selectlanguageifdefined{english}
+\BibTitle{[Conway's Game of Life]}. "---
+\newblock URL:~\url{https://www.conwaylife.com/} (Дата обращения 27.05.2020).
+  Загл. с экр. Яз. англ.
+
+\bibitem{physics}
+\selectlanguageifdefined{english}
+\BibAuthor{Ladd,~A.} \BibTitle{An application of lattice-gas cellular automata
+  to the study of brownian motion}~/ A.~Ladd, D.~Frenkel, M.~Colvin. "---
+\newblock 01 1988. "---
+\newblock Vol.~60. "---
+\newblock Pp.~975--978.
+
+\bibitem{chemistry}
+\selectlanguageifdefined{english}
+\BibAuthor{Oono,~Y.} \BibTitle{Discrete model of chemical turbulence}~/
+  Y.~Oono, M.~Kohmoto~// \emph{Phys. Rev. Lett.} "---
+\newblock Dec 1985. "---
+\newblock Vol.~55. "---
+\newblock Pp.~2927--2931.
+  \BibUrl{https://link.aps.org/doi/10.1103/PhysRevLett.55.2927}.
+
+\bibitem{bio}
+\selectlanguageifdefined{english}
+\BibAuthor{Sander,~L.} \BibTitle{Fractal growth processes}~/ L.~Sander~//
+  \emph{Nature}. "---
+\newblock 08 1986. "---
+\newblock Vol.~322. "---
+\newblock Pp.~789--793.
+
+\bibitem{conways}
+\selectlanguageifdefined{english}
+\BibTitle{[Game of Life]}. "---
+\newblock URL:~\url{https://mathworld.wolfram.com/GameofLife.html} (Дата
+  обращения 27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{genetic-first}
+\selectlanguageifdefined{english}
+\BibAuthor{Chavoya,~A.} \BibTitle{Using a genetic algorithm to evolve cellular
+  automata for 2d/3d computational development}. "---
+\newblock Vol.~1. "---
+\newblock 01 2006. "---
+\newblock Pp.~231--232.
+
+\bibitem{mordvintsev2020growing}
+\selectlanguageifdefined{english}
+\BibAuthor{Mordvintsev,~A.} \BibTitle{Growing neural cellular automata}~/
+  A.~Mordvintsev, E.~Randazzo, E.~Niklasson, M.~Levin~// \emph{Distill}. "---
+\newblock 2020. "---
+\newblock https://distill.pub/2020/growing-ca.
+
+\bibitem{moore}
+\selectlanguageifdefined{english}
+\BibTitle{[Moore Neighborhood]}. "---
+\newblock URL:~\url{https://mathworld.wolfram.com/MooreNeighborhood.html} (Дата
+  обращения 27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{twodimensional}
+\selectlanguageifdefined{english}
+\BibAuthor{Packard~N.H.,~W.~S.} \BibTitle{Two-dimensional cellular automata}~/
+  W.~S. Packard, N.H.~// \emph{Journal of Statistical Physics}. "---
+\newblock 1985. "---
+\newblock Vol.~38. "---
+\newblock Pp.~901--946.
+
+\bibitem{bithacks-perf}
+\selectlanguageifdefined{english}
+\BibTitle{[Fundamentals of Computer Programming]}. "---
+\newblock Pp.~150--151. "---
+\newblock
+  URL:~\url{https://books.google.ru/books?id=xYgCAQAAQBAJ&pg=PA150&lpg=PA150&dq=bit+operations+performance+c%23&source=bl&ots=FPdhyQlS5h&sig=ACfU3U3dz1jB0U0WD_0553muTAbXAM2jFw&hl=ru&sa=X&ved=2ahUKEwiH8M_WntnpAhXMyKYKHbohC3QQ6AEwDXoECAoQAQ}
+  (Дата обращения 27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{higherorder}
+\selectlanguageifdefined{english}
+\BibAuthor{Dennunzio,~A.} \BibTitle{On the dynamical behaviour of linear
+  higher-order cellular automata and its decidability}~/ A.~Dennunzio,
+  E.~Formenti, L.~Manzoni, L.~Margara, A.~Porreca~// \emph{Information
+  Sciences}. "---
+\newblock 02 2019. "---
+\newblock Vol.~486.
+
+\bibitem{git}
+\selectlanguageifdefined{english}
+\BibTitle{[Git - What is Git?]}. "---
+\newblock
+  URL:~\url{https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F}
+  (Дата обращения 27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{gpu-performance}
+\selectlanguageifdefined{english}
+\BibTitle{[FLOPs per Cycle for CPUs, GPUs and Xeon Phis]}. "---
+\newblock
+  URL:~\url{https://www.karlrupp.net/2016/08/flops-per-cycle-for-cpus-gpus-and-xeon-phis/}
+  (Дата обращения 27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{shader-pipeline}
+\selectlanguageifdefined{english}
+\BibTitle{[Rendering Pipeline Overview]}. "---
+\newblock
+  URL:~\url{https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview}
+  (Дата обращения 27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{genetic-algo}
+\selectlanguageifdefined{english}
+\BibTitle{[Global Optimization Algorithms]}. "---
+\newblock URL:~\url{http://www.it-weise.de/projects/book.pdf} (Дата обращения
+  27.05.2020). Загл. с экр. Яз. англ.
+
+\bibitem{gpu2cpu}
+\selectlanguageifdefined{english}
+\BibAuthor{v.~{Werkhoven},~B.} \BibTitle{Performance models for cpu-gpu data
+  transfers}~// 2014 14th IEEE/ACM International Symposium on Cluster, Cloud
+  and Grid Computing. "---
+\newblock 2014. "---
+\newblock Pp.~11--20.
+
+\bibitem{bithacks}
+\selectlanguageifdefined{english}
+\BibTitle{[Bit Twiddling Hacks]}. "---
+\newblock
+  URL:~\url{https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetParallel}
+  (Дата обращения 27.05.2020). Загл. с экр. Яз. англ.
 
 \end{thebibliography}

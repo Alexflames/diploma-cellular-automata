@@ -5,17 +5,49 @@ Release version: 3.71 (18 mar 2013)
 The 8-bit codepage and sorting file: utf8cyrillic.csf
 The top-level auxiliary file: pract-diploma-Grigoriev.aux
 The style file: gost780uv.bst
-I found no \citation commands---while reading file pract-diploma-Grigoriev.aux
 Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
 Reallocated global_strs (elt_size=1001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Database file #1: thesis.bib
+Warning--empty year in automata
+Warning--empty booktitle in edge-detection
+Warning--language is not defined: englishPp.
+Warning--empty journal in crypto
+Warning--language is not defined: englishVol.
+Warning--language is not defined: englishPp.
+Warning--empty year in cgraphics
+Warning--empty journal in physics
+Warning--language is not defined: englishVol.
+Warning--language is not defined: englishPp.
+Warning--language is not defined: englishVol.
+Warning--language is not defined: englishPp.
+Warning--language is not defined: englishVol.
+Warning--language is not defined: englishPp.
+Warning--empty year in conways
+Warning--empty booktitle in genetic-first
+Warning--language is not defined: englishVol.
+Warning--language is not defined: englishPp.
+Warning--empty year in moore
+Too many commas in name 1 of "Packard, N.H., Wolfram, S" for entry twodimensional
+while executing---line 1398 of file gost780uv.bst
+Too many commas in name 1 of "Packard, N.H., Wolfram, S" for entry twodimensional
+while executing---line 1398 of file gost780uv.bst
+Warning--language is not defined: englishVol.
+Warning--language is not defined: englishPp.
+Warning--empty year in bithacks-perf
+Warning--language is not defined: englishVol.
+Warning--empty year in git
+Warning--empty year in gpu-performance
+Warning--empty year in shader-pipeline
+Warning--empty year in genetic-algo
+Warning--language is not defined: englishPp.
+Warning--empty year in bithacks
 
 Here's how much of BibTeX's memory you used:
- Cites:                 0 out of 750
- Fields:             5000 out of 5000
- Hash table:        18794 out of 19000
- Strings:             651 out of 19000
- Free string pool:   5481 out of 65000
+ Cites:                20 out of 750
+ Fields:              592 out of 5000
+ Hash table:        18767 out of 19000
+ Strings:             749 out of 19000
+ Free string pool:   8736 out of 65000
  Wizard functions:   2649 out of 3000
-(There was 1 error message)
+(There were 2 error messages)

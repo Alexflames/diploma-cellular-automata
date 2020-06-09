@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-	\PYG{k}{foreach}\PYG{p}{(}\PYG{k+kt}{var} \PYG{n}{texture} \PYG{k}{in} \PYG{n}{customRenderTextures}\PYG{p}{)}
-	\PYG{p}{\PYGZob{}}
-	   \PYG{n}{texture}\PYG{p}{.}\PYG{n}{Update}\PYG{p}{();} \PYG{n}{blahblahblah}
-	\PYG{p}{\PYGZcb{}}
-\end{Verbatim}

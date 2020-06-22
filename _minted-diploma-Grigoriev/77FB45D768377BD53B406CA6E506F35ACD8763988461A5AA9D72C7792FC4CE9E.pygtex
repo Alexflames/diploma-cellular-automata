@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{customRenderTexture}\PYG{p}{.}\PYG{n}{material}\PYG{p}{.}\PYG{n}{SetFloatArray}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}\PYGZus{}rule\PYGZdq{}}\PYG{p}{,} \PYG{n}{allRules}\PYG{p}{[}\PYG{n}{screenInd}\PYG{p}{]);}
+	\PYG{n}{customRenderTexture}\PYG{p}{.}\PYG{n}{Initialize}\PYG{p}{();}
+\end{Verbatim}

@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k}{private} \PYG{k+kt}{float} \PYG{n+nf}{CalculateFitness}\PYG{p}{(}\PYG{n}{Texture2D} \PYG{n}{texture2D}\PYG{p}{,} \PYG{n}{Pattern}\PYG{p}{[]} \PYG{n}{patterns}\PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+	  \PYG{n}{texturePixels} \PYG{p}{=} \PYG{n}{texture2D}\PYG{p}{.}\PYG{n}{GetPixels32}\PYG{p}{();}
+	  \PYG{k}{return} \PYG{n+nf}{CalculateFitness}\PYG{p}{(}\PYG{n}{texturePixels}\PYG{p}{,} \PYG{n}{texture2D}\PYG{p}{.}\PYG{n}{width}\PYG{p}{,} \PYG{n}{texture2D}\PYG{p}{.}\PYG{n}{height}\PYG{p}{,} \PYG{n}{patterns}\PYG{p}{);}
+	\PYG{p}{\PYGZcb{}}
+	
+	\PYG{k+kt}{byte}\PYG{p}{[]} \PYG{n}{texturePix} \PYG{p}{=} \PYG{k}{null}\PYG{p}{;}
+	\PYG{k}{private} \PYG{k+kt}{float} \PYG{n+nf}{CalculateFitness}\PYG{p}{(}\PYG{n}{Color32}\PYG{p}{[]} \PYG{n}{texturePixels}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{texW}\PYG{p}{,}
+		\PYG{k+kt}{int} \PYG{n}{texH}\PYG{p}{,} \PYG{n}{Pattern}\PYG{p}{[]} \PYG{n}{patterns}\PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+	  \PYG{k+kt}{var} \PYG{n}{texSize} \PYG{p}{=} \PYG{n}{texW} \PYG{p}{*} \PYG{n}{texH}\PYG{p}{;}
+	  \PYG{n}{texturePix} \PYG{p}{=} \PYG{k}{new} \PYG{k+kt}{byte}\PYG{p}{[}\PYG{n}{texSize}\PYG{p}{];}
+	  \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{i} \PYG{p}{\PYGZlt{}} \PYG{n}{texSize}\PYG{p}{;} \PYG{n}{i}\PYG{p}{++)}
+	  \PYG{p}{\PYGZob{}}
+	      \PYG{n}{texturePix}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{p}{=} \PYG{n}{texturePixels}\PYG{p}{[}\PYG{n}{i}\PYG{p}{].}\PYG{n}{a}\PYG{p}{;}
+	  \PYG{p}{\PYGZcb{}}
+	  \PYG{k}{return} \PYG{n+nf}{CalculateFitness}\PYG{p}{(}\PYG{n}{texturePix}\PYG{p}{,} \PYG{n}{texW}\PYG{p}{,} \PYG{n}{texH}\PYG{p}{,} \PYG{n}{patterns}\PYG{p}{);}
+	\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

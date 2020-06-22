@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kt}{var} \PYG{n}{nextCAField} \PYG{p}{=} \PYG{n}{nextVirtualScreens}\PYG{p}{[}\PYG{n}{ind}\PYG{p}{];}
+	\PYG{k+kt}{var} \PYG{n}{screen2DSize} \PYG{p}{=} \PYG{n}{screenSizeInPixels} \PYG{p}{*} \PYG{n}{screenSizeInPixels}\PYG{p}{;}
+	\PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{short} \PYG{n}{i} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{i} \PYG{p}{\PYGZlt{}} \PYG{n}{screenSizeInPixels}\PYG{p}{;} \PYG{n}{i}\PYG{p}{++)}
+	\PYG{p}{\PYGZob{}}
+	   \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{short} \PYG{n}{j} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{j} \PYG{p}{\PYGZlt{}} \PYG{n}{screenSizeInPixels}\PYG{p}{;} \PYG{n}{j}\PYG{p}{++)}
+	   \PYG{p}{\PYGZob{}}
+	       \PYG{k+kt}{int} \PYG{n}{signal} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;}
+	       \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{short} \PYG{n}{k} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{k} \PYG{p}{\PYGZlt{}} \PYG{l+m}{3}\PYG{p}{;} \PYG{n}{k}\PYG{p}{++)}
+	       \PYG{p}{\PYGZob{}}
+	           \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{short} \PYG{n}{m} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{m} \PYG{p}{\PYGZlt{}} \PYG{l+m}{3}\PYG{p}{;} \PYG{n}{m}\PYG{p}{++)}
+	           \PYG{p}{\PYGZob{}}
+	               \PYG{n}{signal} \PYG{p}{+=} \PYG{n}{CAField}\PYG{p}{[}
+	                   \PYG{p}{(}\PYG{n}{screen2DSize} \PYG{p}{+} \PYG{n}{screenSizeInPixels} \PYG{p}{*} \PYG{n}{i} \PYG{p}{+} \PYG{n}{j}
+	                   \PYG{p}{+} \PYG{n}{screenSizeInPixels} \PYG{p}{*} \PYG{p}{(}\PYG{n}{k} \PYG{p}{\PYGZhy{}} \PYG{l+m}{1}\PYG{p}{)} \PYG{p}{+} \PYG{p}{(}\PYG{n}{m} \PYG{p}{\PYGZhy{}} \PYG{l+m}{1}\PYG{p}{))}
+	                   \PYG{p}{\PYGZpc{}} \PYG{p}{(}\PYG{n}{screen2DSize}\PYG{p}{)]} \PYG{p}{\PYGZlt{}\PYGZlt{}} \PYG{p}{(}\PYG{n}{k} \PYG{p}{*} \PYG{l+m}{3} \PYG{p}{+} \PYG{n}{m}\PYG{p}{);}
+	           \PYG{p}{\PYGZcb{}}
+	       \PYG{p}{\PYGZcb{}}
+	       \PYG{n}{nextCAField}\PYG{p}{[}\PYG{n}{i} \PYG{p}{*} \PYG{n}{screenSizeInPixels} \PYG{p}{+} \PYG{n}{j}\PYG{p}{]} \PYG{p}{=} \PYG{p}{(}\PYG{k+kt}{byte}\PYG{p}{)}\PYG{n}{allRules}\PYG{p}{[}\PYG{n}{ind}\PYG{p}{][}\PYG{n}{signal}\PYG{p}{];}
+	   \PYG{p}{\PYGZcb{}}
+	\PYG{p}{\PYGZcb{}}
+	
+	\PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{short} \PYG{n}{i} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{i} \PYG{p}{\PYGZlt{}} \PYG{n}{screen2DSize}\PYG{p}{;} \PYG{n}{i}\PYG{p}{++)}
+	\PYG{p}{\PYGZob{}}
+	   \PYG{n}{CAField}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{p}{=} \PYG{n}{nextCAField}\PYG{p}{[}\PYG{n}{i}\PYG{p}{];}
+	\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

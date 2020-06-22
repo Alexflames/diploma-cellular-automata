@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{short} \PYG{n}{j} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{j} \PYG{p}{\PYGZlt{}} \PYG{n}{textureWidth}\PYG{p}{;} \PYG{n}{j}\PYG{p}{++)}
+ \PYG{p}{\PYGZob{}}
+   \PYG{n}{cornerPixel} \PYG{p}{=} \PYG{n}{j} \PYG{p}{+} \PYG{n}{i} \PYG{p}{*} \PYG{n}{textureWidth}\PYG{p}{;}
+   \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{byte} \PYG{n}{p} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{p} \PYG{p}{\PYGZlt{}} \PYG{n}{patterns}\PYG{p}{.}\PYG{n}{Length}\PYG{p}{;} \PYG{n}{p}\PYG{p}{++)}
+   \PYG{p}{\PYGZob{}}
+       \PYG{n}{curErr}\PYG{p}{[}\PYG{n}{p}\PYG{p}{]} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;}
+   \PYG{p}{\PYGZcb{}}
+   \PYG{k+kt}{int} \PYG{n}{minErrors} \PYG{p}{=} \PYG{n}{patternErrors} \PYG{p}{+} \PYG{l+m}{1}\PYG{p}{;}
+
+   \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{byte} \PYG{n}{k} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{k} \PYG{p}{\PYGZlt{}} \PYG{n}{patternHeight}\PYG{p}{;} \PYG{n}{k}\PYG{p}{++)}
+   \PYG{p}{\PYGZob{}}
+     \PYG{k+kt}{int} \PYG{n}{ind} \PYG{p}{=} \PYG{p}{(}\PYG{n}{qOffset} \PYG{p}{+} \PYG{n}{k}\PYG{p}{)} \PYG{p}{\PYGZpc{}} \PYG{n}{patternHeight}\PYG{p}{;}
+     \PYG{n}{screenLine} \PYG{p}{=} \PYG{n}{screenLines}\PYG{p}{[}\PYG{n}{ind}\PYG{p}{];}
+     \PYG{n}{newErr} \PYG{p}{=} \PYG{n}{patternLines}\PYG{p}{[}\PYG{n}{p}\PYG{p}{][}\PYG{n}{k}\PYG{p}{]} \PYG{p}{\PYGZca{}} \PYG{n}{screenLine}\PYG{p}{;}
+
+     \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{byte} \PYG{n}{p} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{p} \PYG{p}{\PYGZlt{}} \PYG{n}{patterns}\PYG{p}{.}\PYG{n}{Length}\PYG{p}{;} \PYG{n}{p}\PYG{p}{++)}
+     \PYG{p}{\PYGZob{}}
+       \PYG{n}{newErr} \PYG{p}{=} \PYG{n}{newErr} \PYG{p}{\PYGZhy{}} \PYG{p}{((}\PYG{n}{newErr} \PYG{p}{\PYGZgt{}\PYGZgt{}} \PYG{l+m}{1}\PYG{p}{)} \PYG{p}{\PYGZam{}} \PYG{l+m}{0}\PYG{n}{x55555555}\PYG{p}{);}
+       \PYG{n}{newErr} \PYG{p}{=} \PYG{p}{(}\PYG{n}{newErr} \PYG{p}{\PYGZam{}} \PYG{l+m}{0}\PYG{n}{x33333333}\PYG{p}{)} \PYG{p}{+} \PYG{p}{((}\PYG{n}{newErr} \PYG{p}{\PYGZgt{}\PYGZgt{}} \PYG{l+m}{2}\PYG{p}{)} \PYG{p}{\PYGZam{}} \PYG{l+m}{0}\PYG{n}{x33333333}\PYG{p}{);}
+       \PYG{n}{curErr}\PYG{p}{[}\PYG{n}{p}\PYG{p}{]} \PYG{p}{+=} \PYG{p}{(((}\PYG{n}{newErr} \PYG{p}{+} \PYG{p}{(}\PYG{n}{newErr} \PYG{p}{\PYGZgt{}\PYGZgt{}} \PYG{l+m}{4}\PYG{p}{))} \PYG{p}{\PYGZam{}} \PYG{l+m}{0}\PYG{n}{x0F0F0F0F}\PYG{p}{)} \PYG{p}{*} \PYG{l+m}{0}\PYG{n}{x01010101}\PYG{p}{)} \PYG{p}{\PYGZgt{}\PYGZgt{}} \PYG{l+m}{24}\PYG{p}{;}
+     \PYG{p}{\PYGZcb{}}
+
+     \PYG{n}{screenLine} \PYG{p}{\PYGZlt{}\PYGZlt{}=} \PYG{l+m}{1}\PYG{p}{;}
+     \PYG{k}{if} \PYG{p}{(}\PYG{n}{screenLine} \PYG{p}{\PYGZgt{}=} \PYG{n}{patternCycle}\PYG{p}{)} \PYG{n}{screenLine} \PYG{p}{\PYGZhy{}=} \PYG{n}{patternCycle}\PYG{p}{;}
+     \PYG{n}{nextPixInd} \PYG{p}{=} \PYG{p}{(((}\PYG{n}{i} \PYG{p}{+} \PYG{n}{k}\PYG{p}{)} \PYG{p}{\PYGZpc{}} \PYG{n}{textureHeight}\PYG{p}{)} \PYG{p}{*} \PYG{n}{textureWidth}\PYG{p}{)}
+     	\PYG{p}{+} \PYG{p}{(}\PYG{n}{j} \PYG{p}{+} \PYG{n}{patternWidth}\PYG{p}{)} \PYG{p}{\PYGZpc{}} \PYG{n}{textureWidth}\PYG{p}{;}
+     \PYG{n}{screenLine} \PYG{p}{+=} \PYG{n}{texturePixels}\PYG{p}{[}\PYG{n}{nextPixInd}\PYG{p}{];}
+
+     \PYG{n}{screenLines}\PYG{p}{[(}\PYG{n}{qOffset} \PYG{p}{+} \PYG{n}{k}\PYG{p}{)} \PYG{p}{\PYGZpc{}} \PYG{n}{patternHeight}\PYG{p}{]} \PYG{p}{=} \PYG{p}{(}\PYG{n}{screenLine}\PYG{p}{);}
+   \PYG{p}{\PYGZcb{}}
+
+   \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{byte} \PYG{n}{p} \PYG{p}{=} \PYG{l+m}{0}\PYG{p}{;} \PYG{n}{p} \PYG{p}{\PYGZlt{}} \PYG{n}{patterns}\PYG{p}{.}\PYG{n}{Length}\PYG{p}{;} \PYG{n}{p}\PYG{p}{++)}
+   \PYG{p}{\PYGZob{}}
+       \PYG{k}{if} \PYG{p}{(}\PYG{n}{curErr}\PYG{p}{[}\PYG{n}{p}\PYG{p}{]} \PYG{p}{\PYGZlt{}} \PYG{n}{minErrors}\PYG{p}{)} \PYG{n}{minErrors} \PYG{p}{=} \PYG{n}{curErr}\PYG{p}{[}\PYG{n}{p}\PYG{p}{];}
+   \PYG{p}{\PYGZcb{}}
+   \PYG{n}{fitness} \PYG{p}{+=} \PYG{n}{minErrors} \PYG{p}{\PYGZlt{}=} \PYG{n}{patternErrors} \PYG{p}{?}
+    \PYG{p}{(}\PYG{l+m}{1} \PYG{p}{+} \PYG{n}{patternErrors} \PYG{p}{\PYGZhy{}} \PYG{n}{minErrors}\PYG{p}{)} \PYG{p}{*} \PYG{l+m}{1f} \PYG{p}{/} \PYG{p}{(}\PYG{n}{patternErrors} \PYG{p}{+} \PYG{l+m}{1}\PYG{p}{)} \PYG{p}{:} \PYG{l+m}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

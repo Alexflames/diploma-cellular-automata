@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{calculate\PYGZus{}time}\PYG{p}{(}\PYG{n}{statistics\PYGZus{}files}\PYG{p}{,} \PYG{n}{patterns}\PYG{p}{):}
+    \PYG{n}{time\PYGZus{}accum} \PYG{o}{=} \PYG{n+nb}{dict}\PYG{p}{()}
+    \PYG{k}{for} \PYG{n}{pattern} \PYG{o+ow}{in} \PYG{n}{patterns}\PYG{p}{:}
+        \PYG{n}{time\PYGZus{}accum}\PYG{p}{[}\PYG{n}{pattern}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Stats\PYGZhy{}\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.txt\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]]} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+    \PYG{n}{current\PYGZus{}pattern} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}current\PYGZus{}pattern}\PYG{p}{(}\PYG{n}{line}\PYG{p}{):}
+        \PYG{n}{nonlocal} \PYG{n}{current\PYGZus{}pattern}
+        \PYG{n}{current\PYGZus{}pattern} \PYG{o}{=} \PYG{n}{line}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}for\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{1}\PYG{p}{]}
+        	\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}after\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{.}\PYG{n}{strip}\PYG{p}{()}
+
+    \PYG{k}{def} \PYG{n+nf}{success\PYGZus{}time}\PYG{p}{(}\PYG{n}{line}\PYG{p}{):}
+        \PYG{n}{nonlocal} \PYG{n}{time\PYGZus{}accum}
+        \PYG{n}{time\PYGZus{}acc} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{line}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}:\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{1}\PYG{p}{]}
+        	\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{},\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{])}
+        \PYG{k}{if} \PYG{p}{(}\PYG{n}{time\PYGZus{}acc} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{):}
+            \PYG{n}{time\PYGZus{}accum}\PYG{p}{[}\PYG{n}{current\PYGZus{}pattern}\PYG{p}{]} \PYG{o}{+=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{line}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{]}
+            	\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}:\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{},\PYGZsq{}}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{])}
+
+    \PYG{n}{analyze}\PYG{p}{(}\PYG{n}{statistics\PYGZus{}files}\PYG{p}{,}
+    	\PYG{p}{(}\PYG{n}{get\PYGZus{}current\PYGZus{}pattern}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{),} \PYG{p}{(}\PYG{n}{success\PYGZus{}time}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{))}
+
+    \PYG{k}{for} \PYG{n}{entry} \PYG{o+ow}{in} \PYG{n}{time\PYGZus{}accum}\PYG{o}{.}\PYG{n}{keys}\PYG{p}{():}
+        \PYG{n}{time\PYGZus{}accum}\PYG{p}{[}\PYG{n}{entry}\PYG{p}{]} \PYG{o}{/=} \PYG{l+m+mi}{3600}
+
+    \PYG{k}{return} \PYG{n}{time\PYGZus{}accum}
+\end{Verbatim}

@@ -1,0 +1,1273 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2018.1.22)  23 JUN 2020 17:35
+entering extended mode
+**./autoref-diploma-Grigoriev.tex
+(autoref-diploma-Grigoriev.tex
+LaTeX2e <2017-04-15>
+Babel <3.16> and hyphenation patterns for 75 language(s) loaded.
+(SCWorks.cls
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\extsizes\extarticle.
+cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\extsizes\size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\exscale.sty
+Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\geometry\geometry.st
+y
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\ifvtex.st
+y
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\ifxetex\ifxetex.st
+y
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks15
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\geometry\geometry.cf
+g))
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\setspace\setspace.st
+y
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\tools\calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count92
+\calc@Cskip=\skip45
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\titlesec\titlesec.st
+y
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen114
+\ttl@minus=\dimen115
+\ttl@toksa=\toks16
+\titlewidth=\dimen116
+\titlewidthlast=\dimen117
+\titlewidthfirst=\dimen118
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\titlesec\titletoc.st
+y
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen119
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@tempdima=\dimen123
+\caption@indent=\dimen124
+\caption@parindent=\dimen125
+\caption@hangindent=\dimen126
+)
+\c@ContinuedFloat=\count93
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics\graphicx.st
+y
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics\graphics.st
+y
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics-cfg\graphic
+s.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics-def\pdftex.
+def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\enumitem\enumitem.st
+y
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip48
+\enit@outerparindent=\dimen129
+\enit@toks=\toks17
+\enit@inbox=\box27
+\enitdp@description=\count94
+)
+\tmp=\skip49
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\titlesec\block.tss
+File: block.tss 2016/03/15
+)) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\cyrillic\t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\cyrillic\cp1251.def
+File: cp1251.def 2014/10/28 v1.0d Input encoding file
+)) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen130
+)) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsmath\amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen131
+) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen132
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks21
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks22
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsfonts\amsfonts.st
+y
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amscls\amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks30
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\fancyvrb\fancyvrb.st
+y
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count107
+\FV@InFile=\read1
+\FV@TabBox=\box30
+\c@FancyVerbLine=\count108
+\FV@StepNumber=\count109
+\FV@OutFile=\write3
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\minted\minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\oberdiek\kvoptions.s
+ty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\ltxcmds.s
+ty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\kvsetkeys
+.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\infwarerr
+.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\etexcmds.
+sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\ifluatex.
+sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\fvextra\fvextra.sty
+Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvr
+b
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\etoolbox\etoolbox.st
+y
+Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count110
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count111
+\output=\toks31
+\linenoprevgraf=\count112
+\linenumbersep=\dimen139
+\linenumberwidth=\dimen140
+\c@linenumber=\count113
+\c@pagewiselinenumber=\count114
+\c@LN@truepage=\count115
+\c@internallinenumber=\count116
+\c@internallinenumbers=\count117
+\quotelinenumbersep=\dimen141
+\bframerule=\dimen142
+\bframesep=\dimen143
+\bframebox=\box31
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count118
+\c@FV@TrueTabCounter=\count119
+\FV@TabBox@Group=\box32
+\FV@TmpLength=\skip56
+\c@FV@HighlightLinesStart=\count120
+\c@FV@HighlightLinesStop=\count121
+\FV@LoopCount=\count122
+\FV@NCharsBox=\box33
+\FV@BreakIndent=\dimen144
+\FV@BreakIndentNChars=\count123
+\FV@BreakSymbolSepLeft=\dimen145
+\FV@BreakSymbolSepLeftNChars=\count124
+\FV@BreakSymbolSepRight=\dimen146
+\FV@BreakSymbolSepRightNChars=\count125
+\FV@BreakSymbolIndentLeft=\dimen147
+\FV@BreakSymbolIndentLeftNChars=\count126
+\FV@BreakSymbolIndentRight=\dimen148
+\FV@BreakSymbolIndentRightNChars=\count127
+\c@FancyVerbLineBreakLast=\count128
+\FV@LineBox=\box34
+\FV@LineIndentBox=\box35
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\tools\shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\ifplatform\ifplatfor
+m.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\pdftexcmd
+s.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\catchfile
+.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+))
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\xstring\xstring.sty
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\xstring\xstring.te
+x
+\@xs@message=\write4
+\integerpart=\count129
+\decimalpart=\count130
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip57
+\fb@frw=\dimen149
+\fb@frh=\dimen150
+\FrameRule=\dimen151
+\FrameSep=\dimen152
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count131
+\float@exts=\toks32
+\float@box=\box36
+\@float@everytoks=\toks33
+\@floatcapt=\box37
+)
+\minted@appexistsfile=\read2
+\minted@bgbox=\box38
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count132
+\c@minted@pygmentizecounter=\count133
+\@float@every@listing=\toks34
+\c@listing=\count134
+)
+runsystem(if not exist _minted-autoref-diploma-Grigoriev mkdir _minted-autoref-
+diploma-Grigoriev)...executed.
+
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\tools\longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip58
+\LTright=\skip59
+\LTpre=\skip60
+\LTpost=\skip61
+\LTchunksize=\count135
+\LTcapwidth=\dimen153
+\LT@head=\box39
+\LT@firsthead=\box40
+\LT@foot=\box41
+\LT@lastfoot=\box42
+\LT@cols=\count136
+\LT@rows=\count137
+\c@LT@tables=\count138
+\c@LT@chunks=\count139
+\LT@p@ftn=\toks35
+) (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\tools\array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen154
+\extrarowheight=\dimen155
+\NC@list=\toks36
+\extratabsurround=\skip62
+\backup@length=\skip63
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\graphics-cfg\color.c
+fg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\listings\listings.st
+y
+\lst@mode=\count140
+\lst@gtempboxa=\box43
+\lst@token=\toks37
+\lst@length=\count141
+\lst@currlwidth=\dimen156
+\lst@column=\count142
+\lst@pos=\count143
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count144
+\lst@lineno=\count145
+\lst@maxwidth=\dimen159
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count146
+\lst@skipnumbers=\count147
+\lst@framebox=\box44
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\listings\listings.cf
+g
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\babel\babel.sty
+Package: babel 2018/01/04 3.16 The Babel package
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\babel\switch.def
+File: switch.def 2018/01/04 3.16 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\babel-english\englis
+h.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\babel\babel.def
+File: babel.def 2018/01/04 3.16 Babel common definitions
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\babel\switch.def
+File: switch.def 2018/01/04 3.16 Babel switching mechanism
+)
+\babel@savecnt=\count148
+\U@D=\dimen160
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\babel\txtbabel.def
+)
+\bbl@dirlevel=\count149
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\babel-russian\russia
+nb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+))
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\hyperref\hyperref.st
+y
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\hobsub-hy
+perref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\hobsub-ge
+neric.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count150
+\Hy@pagecounter=\count151
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count152
+Package hyperref Info: Option `unicode' set `true' on input line 3453.
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\hyperref\puenc.def
+File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\00miktex\hyperref.cf
+g
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count153
+ (C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen162
+\Fld@menulength=\count154
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count155
+\c@Item=\count156
+\c@Hfootnote=\count157
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count158
+\c@bookmark@seq@number=\count159
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\oberdiek\rerunfilech
+eck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip64
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\listings\lstlang1.st
+y
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+\c@lem=\count160
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > au
+toref-diploma-Grigoriev.aex <nul: /p x=^%~$PATH:i>> autoref-diploma-Grigoriev.a
+ex)...executed.
+
+runsystem(del autoref-diploma-Grigoriev.aex)...executed.
+
+ (autoref-diploma-Grigoriev.aux)
+\openout1 = `autoref-diploma-Grigoriev.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 52.
+
+(C:\WithoutPermission\PortableTEX\texmfs\localtexmf\tex\latex\pscyr\t2aftm.fd
+File: t2aftm.fd 2001/03/03 v0.4c PS font definitions for T2A/TimesNewRomanPSMT/
+PSCyr
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-15.36449pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=28.45274pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\caption\ltcaption.st
+y
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count161
+\scratchdimen=\dimen165
+\scratchbox=\box45
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen166
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks39
+)
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\oberdiek\epstopdf-ba
+se.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count167
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring ON on input line 52.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\generic\oberdiek\gettitles
+tring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count168
+)
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
+ (autoref-diploma-Grigoriev.out) (autoref-diploma-Grigoriev.out)
+\@outlinefile=\write6
+\openout6 = `autoref-diploma-Grigoriev.out'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 116.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 116.
+
+[1
+
+{C:/WithoutPermission/PortableTEX/texmfs/data/pdftex/config/pdftex.map}]
+(autoref-diploma-Grigoriev.toc
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 1.
+
+(C:\WithoutPermission\PortableTEX\texmfs\localtexmf\tex\latex\pscyr\ot1ftm.fd
+File: ot1ftm.fd 2001/03/03 Fontinst v1.801 font definitions for OT1/ftm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write7
+\openout7 = `autoref-diploma-Grigoriev.toc'.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+
+[2
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+
+Overfull \hbox (9.25714pt too wide) in paragraph at lines 147--148
+[]\T2A/ftm/m/n/14.4 Клеточный ав-то-мат  дис-крет-ная мо-дель, изу-ча-е-мая те
+о-ри-ей ав-то-ма-тов [[][]1[][]].
+ []
+
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 161
+.
+(C:\WithoutPermission\PortableTEX\texmfs\install\tex\latex\cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 163.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 163.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 163.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 163.
+[3
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 172.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 172.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 172.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 172.
+ [4]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 172.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 172.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 175.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 175.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 181.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 189.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 189.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 192.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 192.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 192.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 192.
+ [5
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 193.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 199.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 204.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 204.
+ [6]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 204.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 210.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 210.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 216.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 216.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 221.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 221.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 223.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 223.
+ [7
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 228.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 228.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 233.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 236.
+ [8]
+Overfull \hbox (8.97432pt too wide) in paragraph at lines 245--246
+[]\T2A/ftm/m/n/14.4 Каждый файл име-ет на-зва-ние [][]\T2A/cmtt/m/n/14.4 G-{Имя
+_Паттерна}-{IDэксперимента}.txt[]\T2A/ftm/m/n/14.4 . 
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 251.
+[9]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 251.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 256.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 256.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 261.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 261.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 263.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 263.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 263.
+ [10
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 266.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 266.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 266.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 266.
+ [11]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 266.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 266.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 269.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 269.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 274.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 274.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 279.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 279.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 281.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 281.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 281.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 281.
+ [12
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 292.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 292.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 292.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 292.
+ [13]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 295.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 295.
+ (autoref-diploma-Grigoriev.bbl
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+ [14
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+
+Underfull \hbox (badness 3668) in paragraph at lines 80--84
+[]\T2A/ftm/m/it/14.4 Mordvintsev, A. \T2A/ftm/m/n/14.4 Grow-ing neu-ral cel-lu-
+lar au-toma-ta / A. Mord-v-int-
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 80--84
+\T2A/ftm/m/n/14.4 sev, E. Ran-daz-zo, E. Niklas-son, M. Levin // \T2A/ftm/m/it/
+14.4 Dis-till\T2A/ftm/m/n/14.4 .   2020. 
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 87--90
+[]\T2A/ftm/m/n/14.4 [Moore Neigh-bor-hood].   URL: [][]$\T2A/cmtt/m/n/14.4 htt
+ps : / / mathworld . wolfram . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
+[]\T2A/ftm/m/n/14.4 [Fundamentals of Com-put-er Pro-gram-ming].   Pp. 150--151
+. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
+\T2A/ftm/m/n/14.4 URL: [][]$\T2A/cmtt/m/n/14.4 https : / / books . google . ru 
+/ books ? id = xYgCAQAAQBAJ & pg = PA150 &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
+\T2A/cmtt/m/n/14.4 lpg = PA150 & dq = bit + operations + performance + c % 23 &
+ source = bl & ots =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
+\T2A/cmtt/m/n/14.4 FPdhyQlS5h & sig = ACfU3U3dz1jB0U0WD _ 0553muTAbXAM2jFw & hl
+ = ru & sa =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
+\T2A/cmtt/m/n/14.4 X & ved = 2ahUKEwiH8M _ WntnpAhXMyKYKHbohC3QQ6AEwDXoECAoQAQ$
+[][] \T2A/ftm/m/n/14.4 (Дата
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 106.
+[15
+
+]
+Underfull \hbox (badness 2635) in paragraph at lines 118--122
+[]\T2A/ftm/m/n/14.4 [Git - What is Git?].   URL: [][]$\T2A/cmtt/m/n/14.4 https
+ : / / git-[]scm . com / book / en / v2 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+[]\T2A/ftm/m/n/14.4 [FLOPs per Cy-cle for CPUs, GPUs and Xeon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+\T2A/ftm/m/n/14.4 Phis].   URL: [][]$\T2A/cmtt/m/n/14.4 https : / / www . karl
+rupp . net / 2016 / 08 /
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 125--129
+\T2A/cmtt/m/n/14.4 flops-[]per-[]cycle-[]for-[]cpus-[]gpus-[]and-[]xeon-[]phis/
+$[][] \T2A/ftm/m/n/14.4 (Дата обращения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
+[]\T2A/ftm/m/n/14.4 [Rendering Pipeline Overview].   URL: [][]$\T2A/cmtt/m/n/1
+4.4 https : / / www . khronos .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
+\T2A/cmtt/m/n/14.4 org / opengl / wiki / Rendering _ Pipeline _ Overview$[][] \
+T2A/ftm/m/n/14.4 (Дата обращения
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 139--142
+[]\T2A/ftm/m/n/14.4 [Global Op-ti-miza-tion Al-go-rithms].   URL: [][]$\T2A/cm
+tt/m/n/14.4 http : / / www . it-[]weise . de /
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 153--157
+[]\T2A/ftm/m/n/14.4 [Bit Twid-dling Hacks].   URL: [][]$\T2A/cmtt/m/n/14.4 htt
+ps : / / graphics . stanford . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+\T2A/cmtt/m/n/14.4 ~seander / bithacks . html # CountBitsSetParallel$[][] \T2A/
+ftm/m/n/14.4 (Дата обращения
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 314.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+ (autoref-diploma-Grigoriev.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package rerunfilecheck Info: File `autoref-diploma-Grigoriev.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 81CD94052FDA4955A620E300A4FE9CE3;6464.
+ ) 
+Here is how much of TeX's memory you used:
+ 17817 strings out of 493307
+ 277111 string characters out of 3129325
+ 430520 words of memory out of 3000000
+ 21036 multiletter control sequences out of 15000+200000
+ 11008 words of font info for 31 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,5n,40p,864b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/WithoutPermission/PortableTEX/texmfs/install/fonts/enc/t2/t2a.enc} <C:\Wi
+thoutPermission\PortableTEX\texmfs/data\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt14
+40.pk><C:/WithoutPermission/PortableTEX/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/WithoutPermission/PortableTEX/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/WithoutPermission/PortableTEX/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/WithoutPermission/PortableTEX/texmf
+s/localtexmf/fonts/type1/public/pscyr/times.pfb><C:/WithoutPermission/PortableT
+EX/texmfs/localtexmf/fonts/type1/public/pscyr/timesbd.pfb><C:/WithoutPermission
+/PortableTEX/texmfs/localtexmf/fonts/type1/public/pscyr/timesi.pfb>
+Output written on autoref-diploma-Grigoriev.pdf (16 pages, 191912 bytes).
+PDF statistics:
+ 391 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+
